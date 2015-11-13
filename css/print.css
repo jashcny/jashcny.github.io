@@ -1,0 +1,106 @@
+body {
+  color: #222;
+  font-size: 12pt;
+  font-family:serif;
+  font-weight: normal;
+  background: transparent;
+  line-height: 0.3in;
+  word-spacing: 0.017in;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+#container {
+  position:relative;
+  padding: 0.2in;
+  text-align: left;
+}
+
+section {
+  float: left;
+  width: 7.2in;
+}
+
+
+article {
+  line-height: 0.3in;
+  word-spacing: 0.017in;
+}
+
+h1 {
+font-size: 18pt;
+font-weight: bold;
+}
+
+h2{
+font-size: 14pt;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+p {
+  line-height: 0.3in;
+  word-spacing: 0.017in;
+}
+
+strong {
+  color: rgb(253,144,28);
+}
+
+
+
+address {
+  text-transform: uppercase;
+}
+
+img {
+  float: left;
+  margin-left: -0.7in;
+  margin-right: 0.2in;
+  margin-bottom: 0.2in
+}
+
+#contact
+{
+  text-align: center;
+  padding-left: 1in;
+}
+
+a {
+  color: #006A00;
+  text-decoration: none;
+}
+
+
+a[href$=".html"] {
+  display: none;
+}
+
+a[href^="http://"] {
+  display: inline;
+}
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
+
+
+ul li {
+  line-height: 0.2in;
+  word-spacing: 0.017in;
+  margin-bottom: 0.1in;
+}
+
+
+footer {
+  font-weight: bold;
+  clear: both;
+}
