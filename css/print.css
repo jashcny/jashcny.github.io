@@ -72,17 +72,11 @@ img {
   length: 300px;
   border-radius: 50%;
   float: left;
-<<<<<<< HEAD
   margin-right: 1in;
 }
 
 nav {
   display: none;
-=======
-  margin-left: -0.7in;
-  margin-right: 0.2in;
-  margin-top: -0.3in;
->>>>>>> origin/master
 }
 
 #contact
