@@ -30,7 +30,6 @@ body{
   display:inline-block;
 }
 
-
 .homethree {
   margin-left: 6em;
   text-align: center;
@@ -66,8 +65,6 @@ body{
 
 }
 
-
-
 .div img {
   width: 200px;
   length: 300px;
@@ -75,8 +72,6 @@ body{
   margin-left: 24em;
   margin-right: 24em;
 }
-
-
 
 .essayone {
   width: 700px;
@@ -172,7 +167,6 @@ text-transform: uppercase;
   margin-bottom: 3em;
 }
 
-
 .james {
   margin-top: 8em;
 }
@@ -182,13 +176,11 @@ h1{
   word-spacing: 0.3em;
   line-height: 1.5em;
    padding-bottom: 0.2em;
-
 }
 
 h2 {
   font-size: 16px;
 }
-
 
 .essayone {
   padding-top: 2em;
@@ -198,8 +190,6 @@ nav {
   padding-left: 30em;
   font-size:14px;
   font-style: normal;
-
-
 }
 
 nav ul {
@@ -219,8 +209,6 @@ nav ul li {
 li {
   list-style: none;
 }
-
-
 
  a {
      color: rgb(233, 42, 58);
@@ -347,14 +335,11 @@ strong a{
   text-decoration: none;
 }
 
-
-
 .sal {
   width: 1100px;
   display: inline-block;
   margin-left: 5em;
   margin-top: 5em;
-
 }
 
 .sal1 {
