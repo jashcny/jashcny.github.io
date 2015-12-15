@@ -31,7 +31,6 @@ section {
   width: 7.2in;
 }
 
-
 article {
   line-height: 0.3in;
   word-spacing: 0.017in;
@@ -42,7 +41,7 @@ font-size: 18pt;
 font-weight: bold;
 }
 
-h2{
+h2 {
 font-size: 14pt;
 font-weight: bold;
 text-transform: uppercase;
@@ -79,8 +78,7 @@ nav {
   display: none;
 }
 
-#contact
-{
+#contact {
   text-align: center;
   padding-left: 2in;
 }
@@ -89,7 +87,6 @@ a {
   color: #006A00;
   text-decoration: none;
 }
-
 
 a[href$=".html"] {
   display: none;
@@ -107,7 +104,6 @@ ul li {
   word-spacing: 0.017in;
   margin-bottom: 0.1in;
 }
-
 
 footer {
   font-weight: bold;
