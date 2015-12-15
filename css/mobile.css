@@ -1,0 +1,248 @@
+@media (max-width: 320px) {
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700italic);
+
+body {
+  max-width: 320px;
+  min-width: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  min-width: 0px;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+
+nav ul li {
+  padding-right: 6px;
+}
+
+.div {
+max-width: 320px;
+  padding-left: 2px;
+  margin-left: 2px;
+}
+
+.div img{
+  width: 150px;
+  length: 250px;
+  border-radius: 50%;
+  margin-left:65px;
+  margin-top: -35px;
+}
+
+.homeone {
+  margin-left:75px;
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.homethree {
+  max-width: 290px;
+  margin-left:4px;
+  font-size: 15px;
+}
+
+#find li {
+  margin-left: 5px;
+  margin-right:20px;
+  display: inline-block;
+}
+
+#find {
+  font-size: 10px;
+    width:280px;
+  padding-left: 21px;
+  margin-top: 29px;
+}
+
+.sal {
+  max-width: 320px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.sal1 {
+  width: 280px;
+  text-align: justify;
+  margin-left: 4px;
+  line-height: 22px;
+}
+
+.sal2 li {
+ list-style: none;
+ margin-left: 0px;
+}
+
+.sal2 {
+  padding-left: 35px;
+}
+
+.sal3 {
+  margin-top: 10px;
+  width:280px;
+  height:157px;
+  float: left;
+}
+
+#video_contact {
+  margin-left: 6px;
+  padding-left: 4px;
+  margin-top: 5px;
+}
+
+#video_contact li{
+  display: inline;
+  margin-right: 24.5px;
+}
+
+#essay {
+  max-width: 320px;
+}
+
+.essayone {
+  max-width: 320px;
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-top: 3px;
+}
+
+.essayone article {
+  width: 260px;
+
+  margin-left: 8px;
+}
+
+.essatwo h1 {
+text-align: justify;
+}
+
+.james h1 {
+  word-spacing: 1px;
+  text-align: left;
+}
+
+.description li{
+  list-style: none;
+}
+
+.essaytwo h2 {
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.essaytwo p {
+  margin-top: 2px;
+}
+
+.essaytwo img{
+  width: 260px;
+}
+ .img1 {
+   height:320px;
+ }
+
+ .img2 {
+   height:180px;
+ }
+
+ .img3 {
+   height:320px;
+ }
+
+ .img4 {
+   height:170px;
+ }
+
+ .james img{
+   width: 260px;
+ }
+
+.img5 {
+  height: 360px;
+}
+
+.img6 {
+  height: 180px;
+}
+
+.img7 {
+  height: 170px;
+}
+
+.img8 {
+  height: 320px;
+}
+
+#essay_contact {
+  margin-left: 4px;
+  padding-left: 10px;
+}
+
+#essay_contact li{
+  list-style: none;
+  margin-right: 22px;
+  margin-left: 2px;
+  display: inline-block;
+}
+
+#container {
+    max-width: 320px;
+    padding-left: 0px;
+    margin-top: 40px;
+}
+
+.box {
+  margin-left: 10px;
+
+}
+
+.box img {
+  margin-left: 25px;
+}
+
+
+#contact {
+  margin-left: -15px;;
+}
+
+.resume_nav {
+  border: none;
+  margin-left: 0px;
+}
+
+.no-print {
+  padding-left: 10px;
+}
+
+.start {
+  max-width: 320px;
+  padding-left: 0px;
+  margin-left: -30px;
+}
+
+.start h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#education-background, #internship-experience,#activities-leadership,#skills-interests {
+  padding-left: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.top1 {
+  margin-left: -20px;
+}
+
+.small {
+  margin-left: 8px;
+  margin-top: -20px;
+}
+
+
+}

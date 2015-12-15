@@ -54,26 +54,35 @@ p {
 }
 
 strong {
-  color: rgb(253,144,28);
+  color: #006A00;
 }
-
 
 
 address {
   text-transform: uppercase;
 }
 
+.box {
+  display: inline-block;
+  margin-left: 0.5in;
+}
+
 img {
+  width: 200px;
+  length: 300px;
+  border-radius: 50%;
   float: left;
-  margin-left: -0.7in;
-  margin-right: 0.2in;
-  margin-bottom: 0.2in
+  margin-right: 1in;
+}
+
+nav {
+  display: none;
 }
 
 #contact
 {
   text-align: center;
-  padding-left: 1in;
+  padding-left: 2in;
 }
 
 a {
