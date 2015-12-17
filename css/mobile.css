@@ -208,6 +208,7 @@ text-align: justify;
 }
 
 .resume_nav {
+  max-width: 320px;
   border: none;
   margin-left: 0px;
 }
