@@ -53,9 +53,10 @@ max-width: 320px;
 
 #find {
   font-size: 10px;
-    width:280px;
-  padding-left: 21px;
+  width:280px;
+  padding-left: 12px;
   margin-top: 29px;
+  margin-left: 10px;
 }
 
 .sal {
