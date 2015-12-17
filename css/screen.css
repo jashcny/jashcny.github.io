@@ -361,7 +361,9 @@ strong a{
 
 .sal3 {
   float: right;
- margin-top: 1.5em;
+  width:500px;
+  height:281px;
+  margin-top: 1.5em;
 }
 
 #video_contact {
