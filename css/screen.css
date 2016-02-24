@@ -60,9 +60,18 @@ body{
   margin-left: 60px;
 }
 
+#emoji {
+  margin-left: 160px;
+  padding-top: 50px;
+}
+
+#emoji a {
+  color:white;
+  font-size: 24px;
+}
+
 .div a {
   text-decoration: none;
-
 }
 
 .div img {
