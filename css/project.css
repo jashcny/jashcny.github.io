@@ -14,12 +14,11 @@ body{
 }
 
   #foot_contact {
-   margin-left: 130px;
+   margin-left: 120px;
    margin-top: 80px;
   }
 
   #foot_contact li{
-
     display: inline-block;
     margin-right: 20px;
 }
