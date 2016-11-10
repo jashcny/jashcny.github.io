@@ -127,6 +127,10 @@ a {
   display: inline-block;
   margin-right: 10px;
 }
+
+.filtr-container {
+  margin-left: 50px;
+}
 /*.filtr-container img {
    border-radius: 50%;
    width:250px;
