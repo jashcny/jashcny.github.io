@@ -16,6 +16,9 @@ body {
   display: none;
 }
 
+#btn1{
+  display: none;
+}
 
 #container {
   position:relative;
