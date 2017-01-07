@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Han Huang | Porfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/index.css">
+<!-- <link rel="stylesheet" href="css/galleria.classic.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="js/modernizr-custom.js"></script> <!-- Modernizr -->
+<!-- <link rel="stylesheet" type="text/css" href="css/main.css"/> -->
+    <title>Project</title>
+  </head>
+  <body>
+
+    <header class="main_h">
+
+        <div class="row">
+            <a class="logo" href="#">P/F</a>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="resume.html">resume</a></li>
+                    <li><a href="porfolio.html">porfolio</a></li>
+                </ul>
+            </nav>
+
+            <!-- <nav class="cd-stretchy-nav">
+          		<a class="cd-nav-trigger" href="#0">
+          			Menu
+          			<span aria-hidden="true"></span>
+          		</a>
+
+          		<ul>
+          			<li><a href="#0" class="active"><span>Home</span></a></li>
+          			<li><a href="#0"><span>Portfolio</span></a></li>
+          			<li><a href="#0"><span>Services</span></a></li>
+          			<li><a href="#0"><span>Store</span></a></li>
+          			<li><a href="#0"><span>Contact</span></a></li>
+          		</ul>
+
+          		<span aria-hidden="true" class="stretchy-nav-bg"></span>
+          	</nav> -->
+
+        </div> <!-- / row -->
+
+    </header>
+
+    <div class="intro1 porfolioIntro">
+    <div class= "col-sm-3">
+    <img src="img/han.jpg" class=resume_image>
+    </div>
+
+    <div class= "col-sm-3 name">
+    <h3>Han Huang</h3>
+    <h4>About</h4>
+    </div>
+
+    </div>
+    <hr class="nameLine">
+    <p class="explain">"I am a multimedia graduate student majoring in journalism at the University of Miami. Skilled in video shooting and editing. Passionate about high tech and creative graphics. Through my previous courses, experiences, internships and persistent self-improvement, I have acquired the competitive advantage of being a multimedia journalist."</p>
+
+    <div class="download">
+    <button id="btn3" class ="btn" type="submit" onclick="window.open('resume.pdf')">Download Resume</button>
+    </div>
+
+
+    <div class="container">
+        <!-- Filter Controls - Simple Mode -->
+        <div class="row">
+            <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
+            for an unfiltered gallery and then the values of your categories to filter between them -->
+            <ul class="simplefilter">
+
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="1">Data-driven stories</li>
+                <li data-filter="2">Infographics</li>
+                <li data-filter="3">Video</li>
+                <li data-filter="4">3D Design</li>
+                <li data-filter="5">Essay</li>
+            </ul>
+        </div>
+
+        <div class="row workCollection">
+            <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
+            attribute, which starts from the value 1 and goes up from there -->
+            <div class="filtr-container">
+                <div class="col-xs-10 col-sm-8 col-md-4 filtr-item" data-category="1" data-sort="Busy streets">
+                  <h3>Chinese Americans</h3>
+                    <a href="http://www.hanhuang.me/Chinese-Americans"><img class="img-responsive" src="img/filter1.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc"></span> -->
+                    <p>#D3.js #jQuery #topojson #AfterEffect #Illustrator #Adobe Audition</p>
+                    <p>This is my thesis project at the University of Miami! I make an animation to explain the immigration story of early Chinese Americans through Illustrator and After Effects. It includes a timeline to illustrate important events after American Civil War. To show their current life in the United States, I created various charts and graphics to demonstrate the population distribution in each state, the percentage of different visa holders of Chinese Americans, as well as the remittance flows between China and other regions. </p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4 filtr-item" data-category="1" data-sort="Luminous night">
+                  <h3>Autism</h3>
+                    <a href="http://www.hanhuang.me/Project_Autism"><img class="img-responsive" src="img/filter2.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">Austism</span> -->
+                    <p>#D3.js #jQuery #Bootstrap #json</p>
+                    <p>This project idea came to a documentary I did on kids with special needs. There is a timeline to show important steps our society achieved to raise awareness on Autism syndrome. I used D3 library to generate interactive graphics while illustrating the prevalence, types, and the ratios of race and gender of this syndrome. In addition, I also focused on the financial burden of families with autism children as I found family members had to invest large amounts of money and provided meticulous care for autistic kid when I spend time with my documentary subjects.</p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="2" data-sort="City wonders">
+                  <h3>Colonoscopy</h3>
+                  <img class="img-responsive" src="img/filter3.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">Colonoscopy</span> -->
+                  <p>#Illustrator </p>
+                  <p>This is a project I worked for my infographic class. My task was to redesign graphics and found more data based on a report published in New York Times. To find a better way to display these data and enhance the readability, I only retained important paragraphs and emphasized on the expenditure of each process during a colposcopy and the percentage of patient numbers under different types of groups.</p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="2" data-sort="In production">
+                  <h3> Climate Change</h3>
+                    <img class="img-responsive" src="img/filter4.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">Climate Changes</span> -->
+                    <p>#Illustrator </p>
+                    <p>This infographic project is taking about beef consumption and Climate Change. I chose New York Times as my client and decided to explain how meat production and climate change are related. To narrow down the topic, I focused on the amount of different meat consumption in the United States compared to other major countries and sources of emissions from beef production. I also analyzed the pollution produced during the procedure of raising, processing, transporting and cooking livestock products. </p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="2" data-sort="Industrial site">
+                  <h3>Emoji</h3>
+                    <a href="http://www.quadrigram.com/hosting/jasmine_wong/emoji"><img class="img-responsive" src="img/filter5.png" alt="sample image"></a>
+                    <!-- <span class="item-desc">Emoji</span> -->
+                    <p>#Illustrator #Quadrigram</p>
+                    <p>This website build in quadrigram with hundreds of static graphics created in illustrator. I used the data from the SwiftKey Emoji Report to demonstrate how did people from different backgrounds play emoji in their daily life and exciting findings most people did not know about emoji. Some data may seem unbelievable but it is really a lovely project! </p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="4" data-sort="Peaceful lake">
+                  <h3>White Shark Predation</h3>
+                    <a href="http://zxf76.me/shark_hunting/sharkhunting.html"><img class="img-responsive" src="img/filter6.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">White Shark Predation</span> -->
+                  <p>#Hype #Maya #Illustrator</p>
+                  <p>This is a group project under the supervision of professor Alberto Cairo from School of Communication and Professor Neil Hammerschlag from Rosenstiel Marine School. My team members and I developed scientific explanations on the white shark predation behavior. My role in this project was building the 3D model of white Shark. We finished the 3D animation in Maya and built the website instead of coding but with a software named Tumult Hype.  </p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="3" data-sort="Dreamhouse">
+                  <h3>A 91-year-old Ballerina</h3>
+                    <a href="https://vimeo.com/148696187"><img class="img-responsive" src="img/filter8.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">A 91-year-old Ballerina</span> -->
+                    <p>#Canon EOS 5D #Premiere</p>
+                    <p>This story is for the celebration of the 100th anniversary of the novel named Alice's Adventures in Wonderland published in the world. Our task was to find a subject named Alice and she had to have an interesting story. I traveled to a ballet studio in Boca Raton and found my lovely subject. Alice Modine is the oldest student in this studio but still keeps having three ballet classes and two yoga classes each week even she is 91 years old in 2015.  </p>
+                </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="3" data-sort="Restless machines">
+                  <h3>Kids with Special needs</h3>
+                    <a href="https://www.youtube.com/watch?v=velVhYs1png"><img class="img-responsive" src="img/filter9.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">Kids with Special needs</span> -->
+                    <p>#Canon EOS 5D #Premiere</p>
+                    <p>This is a long-term documentary focused on kids with special needs.
+                      Jessica is a high school student who devotes most of her lives to best buddies, a non-profit organization that aims to help people with intellectual and developmental disabilities. To feature her friendship with her two best buddies, I traveled to Broward each weekend by train rail and lived in her house for recording every wonderful moment.
+                    </p>
+                  </div>
+
+                <div class="col-xs-10 col-sm-8 col-md-4  filtr-item" data-category="3" data-sort="City lights">
+                  <h3>Shake-A-Leg</h3>
+                    <a href="https://vimeo.com/148927346"><img class="img-responsive" src="img/filter7.jpg" alt="sample image"></a>
+                    <!-- <span class="item-desc">Shake-A-Leg</span> -->
+                    <p>#Canon EOS 5D #Premiere</p>
+                    <p>Shake-A-Leg (SALM) is a non-profit organization working with people with physical, and economic challenges in a marine environment. My subject Woody Beckham became paralyzed in a sport competition. Because of his optimism and determination, he is now a board member of Woody foundation, a not for profit aims to raise funds for the treatment of people with same injuries. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- <div class="row"> -->
+
+
+
+<div class="contact row">
+
+<div class="col-md-4 part1">
+<h3>Socialising</h3>
+<hr>
+<ul id="social">
+ <li><a href="https://www.facebook.com/profile.php?id=100009339324366"><i class="fa fa-facebook-official fa-3x"></i></a></li>
+ <li><a href="https://twitter.com/Han_Miami"><i class="fa fa-twitter fa-3x"></i></a></li>
+ <li><a href="https://github.com/jashcny"><i class="fa fa-github fa-3x"></i></a></li>
+ <li><a href="https://www.linkedin.com/in/han-huang-74778a105"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+</ul>
+</div>
+
+<div class="col-md-4 part2">
+<h3>Enquiries</h3>
+<hr>
+<ul id=contactMe>
+<li>Tel: 305-998-8632</li>
+<li>Email: hhan.jasmine@gmail.com</li>
+</ul>
+</div>
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script src="js/nav.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/jquery.filterizr.js"></script>
+<script src="js/controls.js"></script>
+
+<!-- Kick off Filterizr -->
+<script type="text/javascript">
+    $(function() {
+        //Initialize filterizr with default options
+        $('.filtr-container').filterizr();
+    });
+</script>
+
+</body>
+</html>

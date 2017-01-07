@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-        <title>Han Huang's resume</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1;" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
-    <link rel="stylesheet" media="print" href="css/print.css" />
-    <link rel="stylesheet" media="screen" href="css/mobile.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Han Huang | Porfolio</title>
+<link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/timeline.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
 
-  <body id="resume">
+<!-- <link rel="stylesheet" href="css/galleria.classic.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="js/modernizr-custom.js"></script> <!-- Modernizr -->
+<!-- <link rel="stylesheet" href="css/reset.css"> -->
+</head>
+<body>
+  <header class="main_h">
+
+      <div class="row">
+          <a class="logo" href="#">P/F</a>
+
+          <div class="mobile-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+
+          <nav>
+              <ul>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="resume.html">resume</a></li>
+                  <li><a href="porfolio.html">porfolio</a></li>
+              </ul>
+          </nav>
+      </div> <!-- / row -->
+
+  </header>
+  <!--
     <nav >
       <ul >
         <li><a href="about.html">about</a></li>
@@ -19,114 +48,180 @@
         <li><a href="project.html">project</a></li>
         <li><a href="essay.html">essay</a></li>
       </ul>
-    </nav>
-    <div id="container">
-      <div class="box">
-          <img src="pictures/p2.jpg" class="resume_image" alt="hanhuang">
+    </nav> -->
 
-          <header id="contact">
-            <h1>Han Huang</h1>
-            <div class="row">
-            <button id="btn1" class ="btn" type="submit" onclick="window.open('resume.pdf')">Download Resume</button>
-            </div>
-              <p><strong>Email: <a href="mailto:hxh277@miami.edu">hxh277@miami.edu</a></strong></p>
-              <p><strong>Tel: (305)9988632</strong></p>
-              <address>
-              <p>7705 SW 86th ST Miami, Florida 33143</p>
-              </address>
-            </header>
+<!-- <div class=resumeIntro>
+<img src="img/me.jpg">
+<h3>Hi, there!
+</h3>
+</div> -->
+<div class=intro1>
+<div class= "col-sm-3">
+<img src="img/han.jpg" class=resume_image>
+</div>
+
+<div class= "col-sm-3 name">
+<h3>Han Huang</h3>
+<h4>About</h4>
+</div>
+
+</div>
+<hr class="nameLine">
+<p class="explain">"I am a multimedia graduate student majoring in journalism at the University of Miami. Skilled in video shooting and editing. Passionate about high tech and creative graphics. Through my previous courses, experiences, internships and persistent self-improvement, I have acquired the competitive advantage of being a multimedia journalist."</p>
+
+<div class="download">
+<button id="btn3" class ="btn" type="submit" onclick="window.open('resume.pdf')">Download Resume</button>
+</div>
+
+<div class="Exp">
+  <h1>Experience</h1>
+</div>
+
+<div class="whole">
+    <div class="timeline animated">
+      <div class="timeline-row">
+        <div class="timeline-time">
+        <p>08/2015-12/2016</p>
+        </div>
+        <div class="timeline-icon">
+          <div class="bg-primary">
+            <i class="fa fa-graduation-cap"></i>
+          </div>
+        </div>
+        <div class="panel timeline-content">
+          <div class="panel-body">
+            <h1>University of Miami</h1>
+            <h2>Degree: Master of Arts in Journalism</h2>
+            <h4>Cumulative GPA: 3.808</h4>
+            <p>
+            Courses: Infographic and Data Visualization, Web Design, Seminar in Visual Storytelling, Media Law and Ethics Seminar, Interactive Storytelling, Writing and Reporting Across Platforms, 3D Design and Graphics, Interactive Data Visualization, Programing for interactivity, Advanced Audio Video Narratives, Theories and Methods for Mass Communication Research.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="resume_nav">
-        <nav class='no-print'>
-          <ul>
-            <li><a href="#education-background">education</a></li>
-            <li><a href="#internship-experience">internship experience</a></li>
-            <li><a href="#activities-leadership">volunteer</a></li>
-            <li><a href="#skills-interests">skills</a></li>
-          </ul>
-        </nav>
+      <div class="timeline-row">
+        <div class="timeline-time">
+          <p>09/2010-06/2014</p>
+        </div>
+        <div class="timeline-icon">
+          <div class="bg-warning">
+            <i class="fa fa-graduation-cap"></i>
+          </div>
+        </div>
+        <div class="panel timeline-content">
+          <div class="panel-body">
+            <h1>Chongqing Normal University</h1>
+            <h2>Degree: Bachelor of Arts in Journalism</h2>
+            <h4>Cumulative GPA: 3.65 Ranking: 10/84</h4>
+            <p>
+            Courses: News Writing, News Interview, Management of New Media, Mass Communication, Newspaper Editing, Radio and TV Program Production, News Commentary, Appreciation of News Works.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-row">
+        <div class="timeline-time">
+          <p>05/2016 - Present</p>
+        </div>
+        <div class="timeline-icon">
+          <div class="bg-info">
+            <i class="fa fa-video-camera"></i>
+          </div>
+        </div>
+        <div class="panel timeline-content">
+          <div class="panel-body">
+            <h1>Caixin Media, Beijing, China</h1>
+            <h2>Freelance Reporter, Globus News</h2>
+            <p>
+            Covered breaking news in Miami, reported the 2016 U.S. Election and Fidel Castro’s death.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-row">
+        <div class="timeline-time">
+          <p>06/2012-09/2012</p>
+        </div>
+        <div class="timeline-icon">
+          <div class="bg-primary">
+            <i class="fa fa-television"></i>
+          </div>
+        </div>
+        <div class="panel timeline-content">
+          <div class="panel-body">
+            <h1>Huizhou TV Station, Guangdong, China</h1>
+            <h2>TV Program Director, Feature Program Department</h2>
+            <p>Designed themes, conducted interviews, wrote TV manuscripts, post-produced programs independently.</p>
+            <p>Completed the production of a feature program Riding Tibet independently; received high volume of visitors on the
+            website of Huizhou TV station.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-row">
+        <div class="timeline-time">
+          <p>06/2011-09/2011</p>
+        </div>
+        <div class="timeline-icon">
+          <div class="bg-primary">
+            <i class="fa  fa-newspaper-o"></i>
+          </div>
+        </div>
+        <div class="panel timeline-content">
+          <div class="panel-body">
+            <h1>Southern Metropolis Daily, Guangdong, China</h1>
+            <h2>News Reporter, Huizhou Department for Interviewing & Editing</h2>
+            <p>Familiarized the work of interviews and editing for current news; learned to handle emergencies, discover news clues,
+              communicate with other media professionals, publish news headlines on Weibo and interact with readers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-row">
+        <div class="timeline-time">
+          <p>2010-2011</p>
+        </div>
+        <div class="timeline-icon">
+          <div class="bg-warning">
+            <i class="fa  fa-heart"></i>
+          </div>
+        </div>
+        <div class="panel timeline-content">
+          <div class="panel-body">
+            <h1>Volunteer</h1>
+            <h2>Volunteer Service Team of Chongqing Normal University</h2>
+            <p>Offered the one-to-one tutoring service to primary and secondary school students in underprivileged communities.</p>
+          </div>
+        </div>
       </div>
 
-      <main class="start">
-        <section id="education-background">
-          <h2> education background </h2>
-          <article>
-              <p><a href="http://welcome.miami.edu/" >University of Miami</a>, School of Communication, Florida, United States</p>
-              <p><strong><abbr title="Master of Arts">M. A. </abbr> in Journalism </strong> <i>Aug. 24, 2015 - Present </i></p>
-              <p>Current GPA: 3.808 </p>
-              <p>Course: Infographic and Data Visualization, Web Design, Seminar in Visual Storytelling, Media Law and Ethics Seminar, Interactive Storytelling, Writing and Reporting Across Platforms, 3D Design and Graphics, Interactive Data Visualization, Programing for interactivity, Advanced Audio Video Narratives, Theories and Methods for Mass Communication Research.</p>
-          </article>
 
-
-          <article>
-          <p><a href="http://www.cqnu.edu.cn/" >Chongqing Normal University</a>, School of Communication, Chongqing, China</p>
-          <p><strong><abbr title="Bachelor of Arts"> B. A. </abbr> in Journalism </strong>  <i>Sep. 11, 2010 - Jun. 24, 2014</i></p>
-          <p>Cumulative GPA: 3.65 Ranking: 10/82</p>
-          <p>Courses: News Writing, News Interview, Management of New Media, Mass Communication, Newspaper Editing, Radio and TV Program Production, News Commentary, Appreciation of News Works.</p>
-          </article>
-        </section>
-
-        <section id="internship-experience">
-          <h2> internship experience </h2>
-         <article>
-            <p><strong><a hreft="http://globus.caixin.com/">Caixin Media</a>, Beijing, China</strong> </p>
-            <p><i>March 2016 - Present </i></p>
-            <p>Freelance Reporter, Globus News</p>
-           <ul>
-              <li>Covered breaking news in Miami, reported the 2016 U.S. Election and Fidel Castro’s death.</li>
-           </ul>
-         </article>
-
-        <article>
-           <p> <strong> <a href="http://www.hzrtv.cn/" >Huizhou TV Station</a>, Guangdong, China</strong> </p>
-           <p><i>June 2012 - September 2012 </i></p>
-           <p>Intern (TV Program Director), Feature Program Department</p>
-          <ul>
-             <li>Designed themes, conducted interviews, wrote TV manuscripts, post-produced programs independently</li>
-             <li>Completed the production of a feature program Riding Tibet independently, including program application, shooting preparation, information collection, interviews organization and Weibo publicity; received high volume of visitors on the website of Huizhou TV station</li>
-          </ul>
-        </article>
-
-        <article>
-            <p><strong><a href="https://en.wikipedia.org/wiki/Southern_Metropolis_Daily" >Southern Metropolis Daily</a>, Guangdong, China </strong> </p>
-            <p><i>July 2011 - September 2011</i></p>
-            <p>News Reporter, Huizhou Department for Interviewing &amp; Editing</p>
-          <ul>
-            <li>Familiarized the work of interviews and editing for current news; learned to handle emergencies, communicate with other media professionals, publish news headlines on Weibo and interact with readers </li>
-          </ul>
-        </article>
-     </section>
-
-     <section id="activities-leadership">
-         <h2> volunteer </h2>
-      <article>
-            <p><strong>Volunteer Service Team of <a href="http://www.cqnu.edu.cn/" >Chongqing Normal University</a></strong></p>
-            <p><i>2010 - 2011</i></p>
-            <p>Participant</p>
-          <ul>
-            <li>Offered the one-to-one tutoring service to primary and secondary school students in underprivileged communities</li>
-          </ul>
-      </article>
-      </section>
-
-
-      <section id="skills-interests">
-          <h2> skills </h2>
-          <article>
-            <p ><strong>Skills: </strong> Proficient with Microsoft Office, Maya, Graphic Design, Adobe Illustrator, After Effects and Premiere.</p>
-            <p><strong>Web Design: </strong> HTML, CSS, JavaScript, D3.</p>
-            <p><strong>Languages: </strong> Fluent in English; native speaker of mandarin Chinese and dialects including Cantonese</p>
-            <p><strong>Interests: </strong> Calligraphy, Piano, Swimming, Badminton, Travel and Handicraft</p>
-          </article>
-            <div class="top1">
-            <p class="no-print" > <a href="#top">Top</a></p>
-            </div>
-          </section>
-      </main>
-
-      <footer>
-        <p class="small"> <small>Contact me on Twitter <a href="https://twitter.com/Han_Miami" > @Han_Miami </a></small></p>
-      </footer>
     </div>
+</div>
+
+    <div class="contact row">
+
+<div class="col-md-4 part1">
+<h3>Socialising</h3>
+<hr>
+<ul id="social">
+     <li><a href="https://www.facebook.com/profile.php?id=100009339324366"><i class="fa fa-facebook-official fa-3x"></i></a></li>
+     <li><a href="https://twitter.com/Han_Miami"><i class="fa fa-twitter fa-3x"></i></a></li>
+     <li><a href="https://github.com/jashcny"><i class="fa fa-github fa-3x"></i></a></li>
+     <li><a href="https://www.linkedin.com/in/han-huang-74778a105"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+</ul>
+</div>
+
+<div class="col-md-4 part2">
+<h3>Enquiries</h3>
+<hr>
+<ul id=contactMe>
+  <li>Tel: 305-998-8632</li>
+  <li>Email: hhan.jasmine@gmail.com</li>
+</ul>
+</div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/timeline.js"></script>
     </body>
   </html>
