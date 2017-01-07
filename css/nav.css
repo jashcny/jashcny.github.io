@@ -18,6 +18,7 @@ html, body {
   opacity: 0;
   top: -100px;
   padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
 }
 @media only screen and (max-width: 766px) {
   .main_h {
@@ -51,7 +52,6 @@ html, body {
   line-height: 1;
   margin-bottom: 10px;
   font-family: 'Eczar', serif;
-  margin-left: 2%;
 }
 @media only screen and (max-width: 766px) {
   .logo {
@@ -131,6 +131,7 @@ nav ul a {
 
 .row {
   width: 100%;
+
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
@@ -170,33 +171,32 @@ p {
 
 .hero {
   position: relative;
-  background: url(../img/me.jpg) no-repeat center center fixed;
+  background: url(../img/camera.jpg) no-repeat center center fixed;
+  -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   text-align: center;
+  color: #4C3F54;
   padding-top: 110px;
   min-height: 100%;
   letter-spacing: 2px;
-  font-family: 'Eczar', serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero h1 {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
-  color: white;
-  line-height: 1;
-  margin-top: 22%;
+  color:#FA4032;
+  text-transform: uppercase;
+  line-height: 1.3;
+  margin-top: 15%;
   font-family: 'Eczar', serif;
   text-align: left;
-  margin-left: 7%;
+  margin-left: 20%;
 }
 
-.hero p{
-  margin-left: -70%;
-  color:white;
-  font-size: 25px;
-}
 /*#multi{
   transform: rotate(-90deg);
   margin-right: 130%;
@@ -206,11 +206,42 @@ p {
 
 .hero h1 span {
   font-size: 57px;
-  color:white;
+  color:#FA4032;
   padding-bottom: 12px;
   line-height:2;
   text-transform: none;
   font-family: 'Eczar', serif;
+}
+
+.mouse {
+  display: block;
+  margin: 0 auto;
+  width: 26px;
+  height: 46px;
+  border-radius: 13px;
+  border: 2px solid #e8f380;
+  position: absolute;
+  bottom: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -26px;
+}
+.mouse span {
+  display: block;
+  margin: 6px auto;
+  width: 2px;
+  height: 2px;
+  border-radius: 4px;
+  background: #e8f380;
+  border: 1px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
 }
 
 @-webkit-keyframes scroll {
