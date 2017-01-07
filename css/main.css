@@ -80,16 +80,13 @@
 
 @media only screen and (max-width: 766px) {
   #group1 {
-		width: 200px;
+		width: 280px;
   }
 
 	#myself1 {
-	 float: none;
-	 text-align: center;
-				 margin-left: auto;
-				 margin-right: auto;
-				width:500px;
-				 background-color: #b0e0e6;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
 }
 
 
@@ -169,6 +166,7 @@ margin-bottom: 8%;
   #galleria {
     height: 350px;
 		width: 80%;
+    margin-left: 10%;
   }
 }
 
@@ -280,10 +278,28 @@ display: inline-block;
   margin-left: 45%;
 }
 
+@media only screen and (max-width: 766px) {
+  .resume_image {
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 5%;
+  }
+}
+
+
 .name{
 	  font-family: 'Eczar', serif;
     margin-top: 0.5%;
     margin-left: -5%;
+}
+
+@media only screen and (max-width: 766px) {
+  .name {
+    font-family: 'Eczar', serif;
+      margin-left: 6%;
+
+  }
 }
 
 .nameLine{
