@@ -182,12 +182,14 @@ p {
   font-family: 'Eczar', serif;
 }
 
+
 @media only screen and (max-width: 766px) {
 .hero  {
-    min-width: 100%;
-   position: relative;
-    background: url(../img/me.jpg);
-  }
+background-image:url('../img/me.jpg');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
 }
 
 .hero h1 {
@@ -200,18 +202,13 @@ p {
   text-align: left;
   margin-left: 7%;
 }
-
-.hero p{
-  margin-left: -70%;
-  color:white;
-  font-size: 25px;
+@media only screen and (max-width: 766px) {
+  .hero h1 {
+    font-size: 13px;
+    font-family: 'Eczar', serif;
+    margin-top: 68%;
+  }
 }
-/*#multi{
-  transform: rotate(-90deg);
-  margin-right: 130%;
-  margin-top:10%;
-
-}*/
 
 .hero h1 span {
   font-size: 57px;
@@ -221,6 +218,33 @@ p {
   text-transform: none;
   font-family: 'Eczar', serif;
 }
+
+@media only screen and (max-width: 766px) {
+  .hero h1 span {
+    font-size: 20px;
+    color:white;
+    padding-bottom: 12px;
+    line-height:2;
+    text-transform: none;
+    font-family: 'Eczar', serif;
+  }
+}
+
+/*.hero p{
+  margin-left: -70%;
+  color:white;
+  font-size: 25px;
+}*/
+
+
+/*#multi{
+  transform: rotate(-90deg);
+  margin-right: 130%;
+  margin-top:10%;
+
+}*/
+
+
 
 @-webkit-keyframes scroll {
   0% {
