@@ -156,13 +156,14 @@ a {
 h1 {
   font-size: 30px;
   line-height: 1.8;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Eczar', serif;
 }
 
 p {
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 1.6;
+  font-family: 'Eczar', serif;
 }
 
 .content {
@@ -193,28 +194,37 @@ background-position:center;
 }*/
 
 .hero h1 {
-  font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   color: white;
   line-height: 1;
-  margin-top: 22%;
+  margin-top: 26%;
   font-family: 'Eczar', serif;
   text-align: left;
   margin-left: 7%;
 }
 @media only screen and (max-width: 766px) {
   .hero h1 {
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Eczar', serif;
     margin-top: 68%;
   }
 }
 
+.hero h2 {
+  color: white;
+  line-height: 1;
+  font-family: 'Eczar', serif;
+  text-align: left;
+  margin-left: 7%;
+}
+
+
+
 .hero h1 span {
-  font-size: 57px;
+  font-size: 67px;
   color:white;
   padding-bottom: 12px;
-  line-height:2;
+  line-height:1.5;
   text-transform: none;
   font-family: 'Eczar', serif;
 }
