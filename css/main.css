@@ -310,10 +310,19 @@ display: inline-block;
   margin-left: 12%;
 }
 
+
+
 .explain{
 width: 50%;
 margin-left: 12%;
 font-family: 'Eczar', serif;
+}
+
+@media only screen and (max-width: 766px) {
+  .explain {
+  width: 80%;
+
+  }
 }
 
 .skillTitle{
