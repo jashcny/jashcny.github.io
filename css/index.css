@@ -8,7 +8,10 @@
     padding: 1rem;
 }
 
-
+.col-xs-10 .col-sm-8 .col-md-4{
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
 
 .item-desc {
     background-color: rgba(0,0,0,0.5);
