@@ -166,8 +166,20 @@ p {
   font-family: 'Eczar', serif;
 }
 
+.collectionP {
+  margin-bottom:-15%;
+}
+
+
 .content {
   padding: 50px 2% 250px;
+}
+
+.rowSpecial {
+  width: 80%;
+  margin-left: 10%;
+  font-family: 'Eczar', serif;
+
 }
 
 .hero {
