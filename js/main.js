@@ -1,19 +1,36 @@
-jQuery(document).ready(function(){
-	if( $('.cd-stretchy-nav').length > 0 ) {
-		var stretchyNavs = $('.cd-stretchy-nav');
-		
-		stretchyNavs.each(function(){
-			var stretchyNav = $(this),
-				stretchyNavTrigger = stretchyNav.find('.cd-nav-trigger');
-			
-			stretchyNavTrigger.on('click', function(event){
-				event.preventDefault();
-				stretchyNav.toggleClass('nav-is-visible');
-			});
-		});
+$(document).ready(function(){
 
-		$(document).on('click', function(event){
-			( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && stretchyNavs.removeClass('nav-is-visible');
-		});
-	}
+$("div.info").hide();
+$(".button-1").css("background-color","rgb(229,0,40)");
+$(".button-2").css("background-color","#989898");
+$(".button-3").css("background-color","#989898");
+$("div.video").hide();
+
+$(".button-1").click(function(){
+  $("div.interactive").show("slow");
+	$(".button-1").css("background-color","rgb(229,0,40)");
+	$(".button-2").css("background-color","#989898");
+	$(".button-3").css("background-color","#989898");
+  $("div.info").hide("slow");
+	$("div.video").hide("slow");
+});
+
+$(".button-2").click(function(){
+  $("div.interactive").hide("slow");
+	$(".button-1").css("background-color","#989898");
+	$(".button-2").css("background-color","rgb(24,144,237)");
+	$(".button-3").css("background-color","#989898");
+  $("div.info").show("slow");
+	$("div.video").hide("slow");
+});
+
+$(".button-3").click(function(){
+  $("div.interactive").hide("slow");
+	$(".button-1").css("background-color","#989898");
+	$(".button-2").css("background-color","#989898");
+	$(".button-3").css("background-color","rgb(254,197,54)");
+  $("div.info").hide("slow");
+	$("div.video").show("slow");
+});
+
 });

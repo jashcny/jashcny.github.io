@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Eczar');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 html, body {
   height:100%
 }
@@ -40,29 +41,11 @@ html, body {
   border-bottom: 1px solid gainsboro;
 }
 
-.logo {
-  width: 50px;
-  font-size: 25px;
-  color: black;
-  text-transform: uppercase;
-  float: left;
-  display: block;
-  margin-top: 0;
-  line-height: 1;
-  margin-bottom: 10px;
-  font-family: 'Eczar', serif;
-  margin-left: 2%;
-}
-@media only screen and (max-width: 766px) {
-  .logo {
-    float: none;
-    margin-left: 10%;
-  }
-}
+
 
 nav {
   float: right;
-  width: 60%;
+  
 }
 @media only screen and (max-width: 766px) {
   nav {
@@ -101,7 +84,7 @@ nav ul a {
   color: black;
   text-transform: uppercase;
   font-size: 16px;
-  font-family: 'Eczar', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .mobile-toggle {
@@ -130,12 +113,7 @@ nav ul a {
   display: block;
 }
 
-.row {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 2%;
-}
+
 
 * {
   box-sizing: border-box;
@@ -144,155 +122,10 @@ nav ul a {
 body {
   color: #8f8f8f;
   background: white;
-  font-family: "Cardo", serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  -webkit-font-smoothing: antialiased;
 }
 
 a {
   text-decoration: none;
-}
-
-h1 {
-  font-size: 30px;
-  line-height: 1.8;
-  font-family: 'Eczar', serif;
-}
-
-p {
-  margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 1.6;
-  font-family: 'Eczar', serif;
-}
-
-.collectionP {
-  margin-bottom:-15%;
-}
-
-
-.content {
-  padding: 50px 2% 250px;
-}
-
-.rowSpecial {
-  width: 80%;
-  margin-left: 10%;
-  font-family: 'Eczar', serif;
-
-}
-
-.hero {
-  position: relative;
-  background: url(../img/me.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  padding-top: 110px;
-  min-height: 100%;
-  letter-spacing: 2px;
-  font-family: 'Eczar', serif;
-}
-
-
-/*@media only screen and (max-width: 766px) {
-.hero  {
-background-image:url(../img/me.jpg);
-background-repeat:no-repeat;
-background-size:contain;
-background-position:center;
-}
-}*/
-
-.hero h1 {
-  font-weight: bold;
-  color: white;
-  line-height: 1;
-  margin-top: 26%;
-  font-family: 'Eczar', serif;
-  text-align: left;
-  margin-left: 7%;
-}
-@media only screen and (max-width: 766px) {
-  .hero h1 {
-    font-size: 15px;
-    font-family: 'Eczar', serif;
-    margin-top: 68%;
-  }
-}
-
-.hero h2 {
-  color: white;
-  line-height: 1;
-  font-family: 'Eczar', serif;
-  text-align: left;
-  margin-left: 7%;
-}
-
-
-
-.hero h1 span {
-  font-size: 67px;
-  color:white;
-  padding-bottom: 12px;
-  line-height:1.5;
-  text-transform: none;
-  font-family: 'Eczar', serif;
-}
-
-@media only screen and (max-width: 766px) {
-  .hero h1 span {
-    font-size: 20px;
-    color:white;
-    padding-bottom: 12px;
-    line-height:2;
-    text-transform: none;
-    font-family: 'Eczar', serif;
-  }
-}
-
-/*.hero p{
-  margin-left: -70%;
-  color:white;
-  font-size: 25px;
-}*/
-
-
-/*#multi{
-  transform: rotate(-90deg);
-  margin-right: 130%;
-  margin-top:10%;
-
-}*/
-
-
-
-@-webkit-keyframes scroll {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-}
-@keyframes scroll {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    transform: translateY(20px);
-  }
 }
