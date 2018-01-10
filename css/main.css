@@ -204,3 +204,10 @@ div.bottom{
   width: 100%;
   margin-top: 100px;
 }
+
+.separator {
+    border: 1px dotted #c4c4c4;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
