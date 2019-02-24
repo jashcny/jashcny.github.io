@@ -211,3 +211,7 @@ div.bottom{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+.subYear{
+  margin-top: -12px;
+}
