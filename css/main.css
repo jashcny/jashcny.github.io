@@ -215,3 +215,7 @@ div.bottom{
 .subYear{
   margin-top: -12px;
 }
+
+video{
+  width: 100%;
+}
