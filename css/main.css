@@ -295,6 +295,11 @@ p.eachAward{
   margin-right: 8px;
   color: rgb(213, 149, 71);
 }
+.best i{
+  font-size: 13px;
+  margin-right: 8px;
+  color: rgb(213, 71, 71);
+}
 
 .sopa,.infobeau,.snd,.malofiej{
   margin-top: 20px;
