@@ -277,7 +277,7 @@ video{
 }
 
 p.award-name{
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
   color: black;
 }
@@ -289,6 +289,11 @@ p.award-title{
 p.eachAward{
   font-weight: 600;
 
+}
+.bronze i{
+  font-size: 13px;
+  margin-right: 8px;
+  color: rgb(213, 149, 71);
 }
 
 .sopa,.infobeau,.snd,.malofiej{
